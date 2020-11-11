@@ -8,4 +8,4 @@ app.get('/', (request, response) => response.send('Hello World'));
 app.post('/gms/rest/thirdparty/identityInfo', (request, response) => response.send('Hello World'));
 
 // set the server to listen on port 3000
-app.listen(3000, () => console.log('Listening on port 3000'));
+app.listen(80, () => console.log('Listening on port 80'));
